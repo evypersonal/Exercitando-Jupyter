@@ -37,10 +37,15 @@ print(livrosNicholasSparks.count("O retorno"))
 # Mudando a ordem da lista
 
 # Argumento utilizado para ordenar em ordem alfabética
-livrosNicholasSparks.sort(key = None)
+livrosNicholasSparks.sort()
 print(livrosNicholasSparks)
 
 # Invertendo a ordem 'de trás para frente'
 
 livrosNicholasSparks.reverse()
 print(livrosNicholasSparks)
+
+# Apagando todos os itens da lista
+
+livrosJohnGreen.clear()
+print(livrosNicholasSparks,livrosJohnGreen)
