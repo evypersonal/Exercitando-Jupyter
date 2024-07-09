@@ -66,7 +66,12 @@ livrosNicholasSparks.clear()
 print(livrosNicholasSparks)
 
 # Utilizando o método fromkeys para criar um novo dicionario
+# Com o fromkeys é possivel atribuir um valor à uma variável e atribuir essa variavel como valor de todas as chaves que contém o dicionário criado a partir do dicionario inicial. ???
+sobre_autor = ["nome", "idade", "cidade"]
 
+valor_teste = "a pesquisar"
 
+new_dict = livrosNicholasSparks.fromkeys(sobre_autor, valor_teste)
+print(new_dict)
 
 
