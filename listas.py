@@ -1,4 +1,4 @@
-# Exemplo de criação de lista
+# Exemplo de criação de lista.
 
 livrosNicholasSparks = ["O desejo", "O retorno", "O melhor de mim","O milagre", "A última música", "A escolha", "Um porto seguro", "Um homem de sorte", "Diario de uma paixão", "Noites de tormenta", "O guardião"]
 print(livrosNicholasSparks)
